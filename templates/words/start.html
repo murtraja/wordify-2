@@ -127,21 +127,33 @@ Your browser does not support the audio element.
 
 
 <br/><br/>
-<div class="footer">
-<br/>
-<div class="row">
-<div>
-<br/>
-<center><ul class="list-unstyled">
-<li>Home</li>
-<li>Sessions</li>
-<li>Practice</li>
-<li>Compete</li>
-</ul></center>
-</div>
-</div>
-</div>
+
   <!--</section></div></div></div>--></div>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<nav class="footer" id="footer">
+<div class="container-fluid">
+<div class="col-md-4">
+   <ul class="nav navbar-nav">
+          <li><a href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
+          <li><a href="#practice"><i class="fa fa-question-circle"></i>Help</a></li>
+        <li><a href="#section-competition"><i class="fa fa-group fa-lg"></i>About Us</a></li>
+      </ul>
+    </div> 
+<div class="col-md-4">
+ <p><i class="fa fa-copyright"></i>All Rights Reserved 2015</p>
+</div>    
+<div class="col-md-4">
+
+  <ul class="nav navbar-nav">
+    <li><a>Follow Us:</a></li>
+          <li><a href="http://www.twitter.com"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+          <li><a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+        <li><a href="http://www.plus.google.com"><i class=" fa fa-google-plus-square fa-lg"></i></a></li>
+  </ul>
+
+</div>
+</div>
+</nav>
 <script src="{% static "js/jquery-2.1.4.js" %}"></script>
 <script type = 'text/javascript'>
 var SANSWER_POST = "{% url 'sanswer_post' %}"
